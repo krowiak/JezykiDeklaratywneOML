@@ -1,4 +1,4 @@
-﻿namespace JezykiDeklaratywneOML.AssemblyInfo
+﻿namespace Zad2.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("JezykiDeklaratywneOML")>]
+[<assembly: AssemblyTitle("Zad2")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("JezykiDeklaratywneOML")>]
+[<assembly: AssemblyProduct("Zad2")>]
 [<assembly: AssemblyCopyright("Copyright ©  2016")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("ae5f0c8f-8c01-4cec-8600-6889a2229233")>]
+[<assembly: Guid("480b038d-6598-4a0e-9bf9-bdec2dd5a86e")>]
 
 // Version information for an assembly consists of the following four values:
 // 
