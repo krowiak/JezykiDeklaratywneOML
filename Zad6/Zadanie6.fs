@@ -32,6 +32,6 @@ let rozwiazProblem =
 
 [<EntryPoint>]
 let main (args : string[]) =
-    rozwiazProblem
+    rozwiazProblem  // Znalezione rozwiązanie: 6210001000
     Console.ReadLine() |> ignore
     0
