@@ -3,19 +3,6 @@
 open System
 open Microsoft.SolverFoundation.Services
 
-//Zad. 4. Dany jest graf nieskierowany G = (V, E) ze zbiorem wierzchołków V i zbiorem krawędzi E. Znajdź maksymalny podgraf
-//pełny, czyli taki graf G0 = (V 0, E0), że V 0 ⊆ V, E0 ⊆ E, dla każdej pary
-//różnych wierzchołków u, v 2 V 0 zachodzi fu, vg 2 E0 oraz jV 0j jest
-//największa.
-
-//param liczWierz, integer, >= 1;
-//var czyWybrane{1..liczWierz}, binary;
-//param krawedzie{i in 1..(liczWierz-1), j in (i+1)..liczWierz}, binary;
-//maximize rozmiarKliki: sum{i in 1..liczWierz} czyWybrane[i];
-//s.t. r{i in 1..(liczWierz-1), j in (i+1)..liczWierz}:
-//czyWybrane[i] + czyWybrane[j] <= 1 + krawedzie[i,j];
-//solve;
-
 type TKrawedz = {W1: int; W2: int; CzyKrawedz: int;}
 type TInt = {Int: int}
 
