@@ -14,9 +14,6 @@ let strModel = "Model[
         Minimize[x + y]
     ]
 ]"
-//
-//Zad. 14.15 Dla całkowitych x, y > 500 znajdź najmniejszą sumę x + y,
-//tak aby było spełnione równanie x2 + x + 1 = 3y2.
 
 let rozwiazProblem =
     let context = SolverContext.GetContext()

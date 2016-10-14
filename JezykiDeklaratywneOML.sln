@@ -13,6 +13,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OmlSuperJezyka", "OmlSuperJ
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Zad14", "Zad14\Zad14.fsproj", "{D27A4A39-D34A-4F8C-886F-9B716A670FB0}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Zad9", "Zad9\Zad9.fsproj", "{AF3AECFC-7BC7-4F99-A3F7-C0C116512AED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D27A4A39-D34A-4F8C-886F-9B716A670FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D27A4A39-D34A-4F8C-886F-9B716A670FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D27A4A39-D34A-4F8C-886F-9B716A670FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3AECFC-7BC7-4F99-A3F7-C0C116512AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3AECFC-7BC7-4F99-A3F7-C0C116512AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3AECFC-7BC7-4F99-A3F7-C0C116512AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3AECFC-7BC7-4F99-A3F7-C0C116512AED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
