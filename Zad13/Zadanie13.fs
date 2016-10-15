@@ -23,7 +23,7 @@ let strModel = "Model[
         Sum[{liczba, Liczby}, Zbior1[liczba]*wartLiczb[liczba]] == Sum[{liczba, Liczby}, Zbior2[liczba]*wartLiczb[liczba]]
     ]
 ]"
-open System.Linq
+
 let rozwiazProblem =
     let context = SolverContext.GetContext()
     context.LoadModel(FileFormat.OML, new IO.StringReader(strModel))
