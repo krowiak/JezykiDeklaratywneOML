@@ -4,7 +4,7 @@ open System
 open Microsoft.SolverFoundation.Services
 
 let strModel = "Model[
-    Decisions[Integers[-Infinity, 500], x, y],
+    Decisions[Integers[500, Infinity], x, y],
 
     Constraints[
         x*x + x + 1 == 3 * y * y
@@ -23,6 +23,6 @@ let rozwiazProblem =
 
 [<EntryPoint>]
 let main (args : string[]) =
-    rozwiazProblem  // Znalezione rozwiązanie: x = -4367, y = -2521
+    rozwiazProblem  // Znalezione rozwiązanie: x = 4366, y = 2521
     Console.ReadLine() |> ignore
     0
